@@ -6,7 +6,11 @@
 //  Copyright © 2017年 Tpphha. All rights reserved.
 //
 
-@import WMPageController;
+#if __has_include(<WMPageController/WMPageController.h>)
+#import <WMPageController/WMPageController.h>
+#else
+#import "WMPageController.h"
+#endif
 
 @protocol WMStickyPageControllerDelegate;
 

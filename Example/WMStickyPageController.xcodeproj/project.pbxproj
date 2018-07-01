@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B10B9A9F23DFBC3BF8A9980 /* Pods_WMStickyPageController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0F35010BA4DB246ADAD2F4 /* Pods_WMStickyPageController_Example.framework */; };
 		3D15268A20E8CC870045E646 /* WMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15268420E8CC870045E646 /* WMHomeViewController.m */; };
 		3D15268B20E8CC870045E646 /* WMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15268520E8CC870045E646 /* WMTableViewController.m */; };
 		3D15268C20E8CC870045E646 /* WMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D15268920E8CC870045E646 /* WMDetailViewController.m */; };
+		5049873BB86D22E674E83659 /* Pods_WMStickyPageController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48F718C33579384C04469D /* Pods_WMStickyPageController_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -26,7 +26,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		90FDC15AB4658B5D2C9AF685 /* Pods_WMStickyPageController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86638CC40876CCEC3C6D50A9 /* Pods_WMStickyPageController_Tests.framework */; };
+		C14907CD6542F3BD5949C7F6 /* Pods_WMStickyPageController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00536E4DFB0FB8C717E1AE99 /* Pods_WMStickyPageController_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00536E4DFB0FB8C717E1AE99 /* Pods_WMStickyPageController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMStickyPageController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12849BEC7070274C50338A3A /* Pods-WMStickyPageController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMStickyPageController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WMStickyPageController_Example/Pods-WMStickyPageController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		200B7A0CB06FEE6ECA83AF18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		28F98C1C684D60FB37E7D404 /* Pods-WMStickyPageController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMStickyPageController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WMStickyPageController_Tests/Pods-WMStickyPageController_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		3D15268820E8CC870045E646 /* WMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTableViewController.h; sourceTree = "<group>"; };
 		3D15268920E8CC870045E646 /* WMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDetailViewController.m; sourceTree = "<group>"; };
 		3D5EAF25BD9A882F0870B405 /* WMStickyPageController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WMStickyPageController.podspec; path = ../WMStickyPageController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D48F718C33579384C04469D /* Pods_WMStickyPageController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMStickyPageController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* WMStickyPageController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMStickyPageController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,12 +72,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86638CC40876CCEC3C6D50A9 /* Pods_WMStickyPageController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMStickyPageController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		873D7FA690627C268E96BC03 /* Pods-WMStickyPageController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMStickyPageController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WMStickyPageController_Tests/Pods-WMStickyPageController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4EABA614DE89354E0EE2C08 /* Pods-WMStickyPageController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMStickyPageController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WMStickyPageController_Example/Pods-WMStickyPageController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AAF4F3A56997C9B385DBC64B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CF0F35010BA4DB246ADAD2F4 /* Pods_WMStickyPageController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMStickyPageController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0B10B9A9F23DFBC3BF8A9980 /* Pods_WMStickyPageController_Example.framework in Frameworks */,
+				C14907CD6542F3BD5949C7F6 /* Pods_WMStickyPageController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +97,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				90FDC15AB4658B5D2C9AF685 /* Pods_WMStickyPageController_Tests.framework in Frameworks */,
+				5049873BB86D22E674E83659 /* Pods_WMStickyPageController_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +145,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				CF0F35010BA4DB246ADAD2F4 /* Pods_WMStickyPageController_Example.framework */,
-				86638CC40876CCEC3C6D50A9 /* Pods_WMStickyPageController_Tests.framework */,
+				00536E4DFB0FB8C717E1AE99 /* Pods_WMStickyPageController_Example.framework */,
+				5D48F718C33579384C04469D /* Pods_WMStickyPageController_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				679206D4829B88844C2F5EEE /* [CP] Embed Pods Frameworks */,
+				A31FF195850624768851C89B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,7 +335,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		679206D4829B88844C2F5EEE /* [CP] Embed Pods Frameworks */ = {
+		A31FF195850624768851C89B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
