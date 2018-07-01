@@ -1,0 +1,6 @@
+framework module WMStickyPageController {
+  umbrella header "WMStickyPageController-umbrella.h"
+
+  export *
+  module * { export * }
+}

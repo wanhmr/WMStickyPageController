@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22CC9A4266742BAC5D03C33349717776 /* WMStickyPageController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B873D258C394E785E8E7C9DC652908B /* WMStickyPageController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27CEC67D6BC6FB08CC47FC49E9C17881 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C05984F6A180BCE6ECE5424433590C2 /* UIKit.framework */; };
+		29DD3B9667C7D9AD8C21BCC2B56E4209 /* Pods-WMStickyPageController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4886D6D2F96174463B393DFC97F1E303 /* Pods-WMStickyPageController_Tests-dummy.m */; };
+		3A6552B69EE19E99C45361176E950D2E /* WMPageController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 101A2BBB562572D2C3EAFF8D0EB673F9 /* WMPageController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		466B8971626FB6BBB0487B64317C7E38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B35F96A02AE4187634B98E76763237B /* CoreGraphics.framework */; };
+		46FA5458E24757B1F4268572429EA659 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C05984F6A180BCE6ECE5424433590C2 /* UIKit.framework */; };
+		4A55A4B1E185BE49C81F5CFB19C683FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBFF542BF09356FF99ADBE0A7BD9F24 /* Foundation.framework */; };
+		4F942AC58CF3684772E252AF785BAF95 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D303304B3C8630DDA9C771891367F199 /* WMMenuItem.m */; };
+		52FA9A24D34321066E6F105A631A4476 /* WMStickyPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2396A692E9DCAC8171CE557F8934DF73 /* WMStickyPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		545B758E2C1791C0E8D5FE6C6B475E7B /* WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA61ACC754CAA3848169893791B19AF /* WMPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59BE90A27B7EB3461CEFDEB6DC902001 /* WMStickyPageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD3011896943C116962DFFACDD26DA5 /* WMStickyPageController-dummy.m */; };
+		5F8B30EBECDE7DEAEF10922492CB0443 /* WMScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B09868A5FB8E8FD0F55CF31337063568 /* WMScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		619038E18BEF99BDA419CB12AB1B4FAE /* WMStickyPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60E29D106803C04D00DCAD644A8D15 /* WMStickyPageController.m */; };
+		634B5135EE63FE19B92F7A819BC74700 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBFF542BF09356FF99ADBE0A7BD9F24 /* Foundation.framework */; };
+		6BF5A429735EE7D2985B62D13B700B3C /* WMMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 096BFC6BED9EF82911463C28276A8860 /* WMMenuItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E83ECCA473D6B4A6D6E9E9B5B0E7DD5 /* WMMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0778F89D6C2130D347E48DE1D933176F /* WMMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77EBA5C5280EBDB789F7F5FA15D8CB85 /* UIViewController+WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241AD406CCB914C930408732D988600B /* UIViewController+WMPageController.m */; };
+		7EDCC15D873EE004C85F0537BDD3FBE7 /* Pods-WMStickyPageController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E92FEE74B8D9420AD79A97E5211AF2 /* Pods-WMStickyPageController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8712017E736C0520414C8C693E925B81 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 953F4FFB74BD775344727875AA9CAFAB /* WMProgressView.m */; };
+		88A6AA60D8FA2E134B6B9914ACF9EB84 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202628B39A3C0DB1196F394E02BAF523 /* WMMenuView.m */; };
+		96CB424B862A12B16FB7678A67B9D5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBFF542BF09356FF99ADBE0A7BD9F24 /* Foundation.framework */; };
+		9A8D9BA5527FD752A42CF8C218EAFB9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBFF542BF09356FF99ADBE0A7BD9F24 /* Foundation.framework */; };
+		A3FDDEB0D864E3FA0655CB7FAFDB03A8 /* WMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CA11B510029522B6BD5B4ABC1E9637 /* WMProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA595B9F7A7A1D5A937499B6DC1EB3B1 /* WMMagicScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521320C137689C7CC67C179721183A1 /* WMMagicScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA7214027BFAC6D4E4D242E5FD881AA /* Pods-WMStickyPageController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CE890EE3C727F88BD7ADF1E02865C4 /* Pods-WMStickyPageController_Example-dummy.m */; };
+		C2C850AB57E3D1A7B1ACC7F4E0B429A5 /* WMMagicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B3EDF5229C8A6C4B246C76484EBB6 /* WMMagicScrollView.m */; };
+		CA0FF1D714DD80D91983882D53604403 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504BF21EC62DC898E001B710F1976413 /* WMScrollView.m */; };
+		D0F1D4CF0A3D739A225886E2AB71CF66 /* WMPageController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7128F6C5D5D078AD5603750E2EE9475C /* WMPageController.framework */; };
+		D289AF37F92768CD29F28876E4B2EAFA /* WMPageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A21D872E091C08BABCD77F72486162AD /* WMPageController-dummy.m */; };
+		E4ABAB710350C6EEB7F9C625069C9FAB /* Pods-WMStickyPageController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A3FC5DAD57BC143E69AC3408A65D2C /* Pods-WMStickyPageController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F34ECDD858149FD9BA158B8C79EFB9C2 /* UIViewController+WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BCC3BA1A9BBF491B1CA8F88BDF818A /* UIViewController+WMPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD4E838C26B5C9DD9EF29156F72E868 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24261A089E86DC4926F986475E608F /* WMPageController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B8DD5F3E2677C14F6CC6E93D659A2D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5291D45954F5114C132DBC34D607F3;
+			remoteInfo = WMStickyPageController;
+		};
+		6F3C0B3CFF5468D1C70686CDAC3E35E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E9493E3659331F61398419A46F2021;
+			remoteInfo = WMPageController;
+		};
+		858C4A802AC29DD44550B9512C945615 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E9493E3659331F61398419A46F2021;
+			remoteInfo = WMPageController;
+		};
+		F628F6A8A8C57E1024BB5534AB446BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4EE53E30929F96BE8BAB5FC733CA44;
+			remoteInfo = "Pods-WMStickyPageController_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0778F89D6C2130D347E48DE1D933176F /* WMMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuView.h; path = WMPageController/WMMenuView/WMMenuView.h; sourceTree = "<group>"; };
+		096BFC6BED9EF82911463C28276A8860 /* WMMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuItem.h; path = WMPageController/WMMenuView/WMMenuItem.h; sourceTree = "<group>"; };
+		0BC35A0E885924E405E19739941912D2 /* WMStickyPageController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMStickyPageController-prefix.pch"; sourceTree = "<group>"; };
+		101A2BBB562572D2C3EAFF8D0EB673F9 /* WMPageController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMPageController-umbrella.h"; sourceTree = "<group>"; };
+		1159D3E59EFFE0C59D1562905CD00816 /* Pods-WMStickyPageController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WMStickyPageController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1469B9DC7000834A19B9A8505E032F57 /* WMPageController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMPageController-prefix.pch"; sourceTree = "<group>"; };
+		162F62115F0C11AE6BB1D376F73D3D14 /* Pods-WMStickyPageController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WMStickyPageController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D5590C27CA63FF85F9EBF33F29803DE /* Pods_WMStickyPageController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WMStickyPageController_Tests.framework; path = "Pods-WMStickyPageController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		202628B39A3C0DB1196F394E02BAF523 /* WMMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuView.m; path = WMPageController/WMMenuView/WMMenuView.m; sourceTree = "<group>"; };
+		2211CD545337A2DE7F00631FC0B69E32 /* WMStickyPageController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMStickyPageController.xcconfig; sourceTree = "<group>"; };
+		2396A692E9DCAC8171CE557F8934DF73 /* WMStickyPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMStickyPageController.h; path = WMStickyPageController/Classes/WMStickyPageController.h; sourceTree = "<group>"; };
+		241AD406CCB914C930408732D988600B /* UIViewController+WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WMPageController.m"; path = "WMPageController/UIViewController+WMPageController.m"; sourceTree = "<group>"; };
+		27C9F02A13EFC2A76B532FF572EB5807 /* Pods-WMStickyPageController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WMStickyPageController_Example.modulemap"; sourceTree = "<group>"; };
+		27E92FEE74B8D9420AD79A97E5211AF2 /* Pods-WMStickyPageController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WMStickyPageController_Example-umbrella.h"; sourceTree = "<group>"; };
+		2E6E0C73CDBB452EC491CC2F0E0FE822 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2F5DD166A913BA7A21AABFE50DBEDE42 /* Pods-WMStickyPageController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WMStickyPageController_Example-resources.sh"; sourceTree = "<group>"; };
+		3523094B17DD766F7040EB37BB36E7D5 /* Pods-WMStickyPageController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WMStickyPageController_Tests.modulemap"; sourceTree = "<group>"; };
+		3800377CDB3CE10B9C28465132CCDA14 /* Pods-WMStickyPageController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMStickyPageController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3D422DEB8A4396E5F1ABDF689A8C3C71 /* Pods-WMStickyPageController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WMStickyPageController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		465A87D701568845665BAB08C29765A8 /* Pods-WMStickyPageController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WMStickyPageController_Tests-resources.sh"; sourceTree = "<group>"; };
+		46B63EB6A8D9C60BC237415CB4B6B2BC /* WMPageController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMPageController.xcconfig; sourceTree = "<group>"; };
+		4886D6D2F96174463B393DFC97F1E303 /* Pods-WMStickyPageController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WMStickyPageController_Tests-dummy.m"; sourceTree = "<group>"; };
+		4D42E10D8A62CF29340D1958B75B5422 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504BF21EC62DC898E001B710F1976413 /* WMScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMScrollView.m; path = WMPageController/WMMenuView/WMScrollView.m; sourceTree = "<group>"; };
+		5267C0ECF9678E6077D69B55CD92CF66 /* WMStickyPageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WMStickyPageController.framework; path = WMStickyPageController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5474D26206F3030A64FB553CB19C9BEC /* Pods-WMStickyPageController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMStickyPageController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		54A3FC5DAD57BC143E69AC3408A65D2C /* Pods-WMStickyPageController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WMStickyPageController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5BD3011896943C116962DFFACDD26DA5 /* WMStickyPageController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMStickyPageController-dummy.m"; sourceTree = "<group>"; };
+		60BCC3BA1A9BBF491B1CA8F88BDF818A /* UIViewController+WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WMPageController.h"; path = "WMPageController/UIViewController+WMPageController.h"; sourceTree = "<group>"; };
+		651EC43E1A765348CC70846674FD7943 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		68CE890EE3C727F88BD7ADF1E02865C4 /* Pods-WMStickyPageController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WMStickyPageController_Example-dummy.m"; sourceTree = "<group>"; };
+		706BDDB9806DB6094CFF706463FCFBDA /* WMStickyPageController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WMStickyPageController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7128F6C5D5D078AD5603750E2EE9475C /* WMPageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WMPageController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C05984F6A180BCE6ECE5424433590C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7D0385282753447447B55CC6726442AA /* Pods-WMStickyPageController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WMStickyPageController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7DA61ACC754CAA3848169893791B19AF /* WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMPageController.h; path = WMPageController/WMPageController.h; sourceTree = "<group>"; };
+		7F1CAF37A0C11FA6292EA74B144AE473 /* Pods_WMStickyPageController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WMStickyPageController_Example.framework; path = "Pods-WMStickyPageController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B873D258C394E785E8E7C9DC652908B /* WMStickyPageController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMStickyPageController-umbrella.h"; sourceTree = "<group>"; };
+		92CA11B510029522B6BD5B4ABC1E9637 /* WMProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMProgressView.h; path = WMPageController/WMMenuView/WMProgressView.h; sourceTree = "<group>"; };
+		93055F43A3A82CAA1706F8E65C7FB709 /* Pods-WMStickyPageController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMStickyPageController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9521320C137689C7CC67C179721183A1 /* WMMagicScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMagicScrollView.h; path = WMStickyPageController/Classes/WMMagicScrollView.h; sourceTree = "<group>"; };
+		953F4FFB74BD775344727875AA9CAFAB /* WMProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMProgressView.m; path = WMPageController/WMMenuView/WMProgressView.m; sourceTree = "<group>"; };
+		9B35F96A02AE4187634B98E76763237B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9D4B3EDF5229C8A6C4B246C76484EBB6 /* WMMagicScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMagicScrollView.m; path = WMStickyPageController/Classes/WMMagicScrollView.m; sourceTree = "<group>"; };
+		A21D872E091C08BABCD77F72486162AD /* WMPageController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMPageController-dummy.m"; sourceTree = "<group>"; };
+		A5C157FC57AC9CD249D528237D4165A1 /* Pods-WMStickyPageController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMStickyPageController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AEFE0A159959B9F6644352C97ED603A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09868A5FB8E8FD0F55CF31337063568 /* WMScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMScrollView.h; path = WMPageController/WMMenuView/WMScrollView.h; sourceTree = "<group>"; };
+		BC24261A089E86DC4926F986475E608F /* WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMPageController.m; path = WMPageController/WMPageController.m; sourceTree = "<group>"; };
+		C03A3E47D284ECF54A9CDD8272EC2EF8 /* Pods-WMStickyPageController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WMStickyPageController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CE60E29D106803C04D00DCAD644A8D15 /* WMStickyPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMStickyPageController.m; path = WMStickyPageController/Classes/WMStickyPageController.m; sourceTree = "<group>"; };
+		D170B738E94521021E0B8F2FF3468126 /* WMPageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WMPageController.framework; path = WMPageController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D303304B3C8630DDA9C771891367F199 /* WMMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuItem.m; path = WMPageController/WMMenuView/WMMenuItem.m; sourceTree = "<group>"; };
+		E617775A5B0F9948A7F3DF314F0B3251 /* Pods-WMStickyPageController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WMStickyPageController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8B47F5C0FB344615CF98D76BCF95F89 /* WMPageController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMPageController.modulemap; sourceTree = "<group>"; };
+		ED7FFA77F9B8932B5B877F39BEFAD43C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05CAEF3E0926BF763E2B4663F19F379 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5AAB141DBBC0319A03494F6CCEE051 /* WMStickyPageController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMStickyPageController.modulemap; sourceTree = "<group>"; };
+		FFBFF542BF09356FF99ADBE0A7BD9F24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D433952E395C7BD0C9D41E2452EF9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A55A4B1E185BE49C81F5CFB19C683FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62D8676E634F633EF465FD37DDBCE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8D9BA5527FD752A42CF8C218EAFB9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10206B34CAE2EF397BD8AE924502D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634B5135EE63FE19B92F7A819BC74700 /* Foundation.framework in Frameworks */,
+				46FA5458E24757B1F4268572429EA659 /* UIKit.framework in Frameworks */,
+				D0F1D4CF0A3D739A225886E2AB71CF66 /* WMPageController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49EB5266625CF0C84DCE65DAC60AAD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466B8971626FB6BBB0487B64317C7E38 /* CoreGraphics.framework in Frameworks */,
+				96CB424B862A12B16FB7678A67B9D5B5 /* Foundation.framework in Frameworks */,
+				27CEC67D6BC6FB08CC47FC49E9C17881 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031EF98B407852EBE3AD01D73C759CF0 /* WMStickyPageController */ = {
+			isa = PBXGroup;
+			children = (
+				9521320C137689C7CC67C179721183A1 /* WMMagicScrollView.h */,
+				9D4B3EDF5229C8A6C4B246C76484EBB6 /* WMMagicScrollView.m */,
+				2396A692E9DCAC8171CE557F8934DF73 /* WMStickyPageController.h */,
+				CE60E29D106803C04D00DCAD644A8D15 /* WMStickyPageController.m */,
+				D66D7960A8AEA23240D8BD5EF2E904CE /* Pod */,
+				9560E6CF28831719DAE382D1CB4BB1D8 /* Support Files */,
+			);
+			name = WMStickyPageController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		09E1EFCDAD748F6BCD927A5846886471 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B69532AA2C9576D96A22C587D9DA24 /* Pods-WMStickyPageController_Example */,
+				271F0130242736094A6374269B62AB46 /* Pods-WMStickyPageController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0EAE7EEF262954E2BE0627024AD42B07 /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				60BCC3BA1A9BBF491B1CA8F88BDF818A /* UIViewController+WMPageController.h */,
+				241AD406CCB914C930408732D988600B /* UIViewController+WMPageController.m */,
+				096BFC6BED9EF82911463C28276A8860 /* WMMenuItem.h */,
+				D303304B3C8630DDA9C771891367F199 /* WMMenuItem.m */,
+				0778F89D6C2130D347E48DE1D933176F /* WMMenuView.h */,
+				202628B39A3C0DB1196F394E02BAF523 /* WMMenuView.m */,
+				7DA61ACC754CAA3848169893791B19AF /* WMPageController.h */,
+				BC24261A089E86DC4926F986475E608F /* WMPageController.m */,
+				92CA11B510029522B6BD5B4ABC1E9637 /* WMProgressView.h */,
+				953F4FFB74BD775344727875AA9CAFAB /* WMProgressView.m */,
+				B09868A5FB8E8FD0F55CF31337063568 /* WMScrollView.h */,
+				504BF21EC62DC898E001B710F1976413 /* WMScrollView.m */,
+				CE8AF5AFB705907839382DC861456DDA /* Support Files */,
+			);
+			name = WMPageController;
+			path = WMPageController;
+			sourceTree = "<group>";
+		};
+		271F0130242736094A6374269B62AB46 /* Pods-WMStickyPageController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7FFA77F9B8932B5B877F39BEFAD43C /* Info.plist */,
+				3523094B17DD766F7040EB37BB36E7D5 /* Pods-WMStickyPageController_Tests.modulemap */,
+				E617775A5B0F9948A7F3DF314F0B3251 /* Pods-WMStickyPageController_Tests-acknowledgements.markdown */,
+				162F62115F0C11AE6BB1D376F73D3D14 /* Pods-WMStickyPageController_Tests-acknowledgements.plist */,
+				4886D6D2F96174463B393DFC97F1E303 /* Pods-WMStickyPageController_Tests-dummy.m */,
+				3D422DEB8A4396E5F1ABDF689A8C3C71 /* Pods-WMStickyPageController_Tests-frameworks.sh */,
+				465A87D701568845665BAB08C29765A8 /* Pods-WMStickyPageController_Tests-resources.sh */,
+				54A3FC5DAD57BC143E69AC3408A65D2C /* Pods-WMStickyPageController_Tests-umbrella.h */,
+				93055F43A3A82CAA1706F8E65C7FB709 /* Pods-WMStickyPageController_Tests.debug.xcconfig */,
+				3800377CDB3CE10B9C28465132CCDA14 /* Pods-WMStickyPageController_Tests.release.xcconfig */,
+			);
+			name = "Pods-WMStickyPageController_Tests";
+			path = "Target Support Files/Pods-WMStickyPageController_Tests";
+			sourceTree = "<group>";
+		};
+		3473D6D10DB628DD7506891DA6ABDACE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EAE7EEF262954E2BE0627024AD42B07 /* WMPageController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55D32573598E255E0C8EB098B04A64D8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B35F96A02AE4187634B98E76763237B /* CoreGraphics.framework */,
+				FFBFF542BF09356FF99ADBE0A7BD9F24 /* Foundation.framework */,
+				7C05984F6A180BCE6ECE5424433590C2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57B69532AA2C9576D96A22C587D9DA24 /* Pods-WMStickyPageController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4D42E10D8A62CF29340D1958B75B5422 /* Info.plist */,
+				27C9F02A13EFC2A76B532FF572EB5807 /* Pods-WMStickyPageController_Example.modulemap */,
+				1159D3E59EFFE0C59D1562905CD00816 /* Pods-WMStickyPageController_Example-acknowledgements.markdown */,
+				7D0385282753447447B55CC6726442AA /* Pods-WMStickyPageController_Example-acknowledgements.plist */,
+				68CE890EE3C727F88BD7ADF1E02865C4 /* Pods-WMStickyPageController_Example-dummy.m */,
+				C03A3E47D284ECF54A9CDD8272EC2EF8 /* Pods-WMStickyPageController_Example-frameworks.sh */,
+				2F5DD166A913BA7A21AABFE50DBEDE42 /* Pods-WMStickyPageController_Example-resources.sh */,
+				27E92FEE74B8D9420AD79A97E5211AF2 /* Pods-WMStickyPageController_Example-umbrella.h */,
+				A5C157FC57AC9CD249D528237D4165A1 /* Pods-WMStickyPageController_Example.debug.xcconfig */,
+				5474D26206F3030A64FB553CB19C9BEC /* Pods-WMStickyPageController_Example.release.xcconfig */,
+			);
+			name = "Pods-WMStickyPageController_Example";
+			path = "Target Support Files/Pods-WMStickyPageController_Example";
+			sourceTree = "<group>";
+		};
+		7317D191646379571E342D9FD9FFD242 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				031EF98B407852EBE3AD01D73C759CF0 /* WMStickyPageController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7317D191646379571E342D9FD9FFD242 /* Development Pods */,
+				8A7DFB43ABACEF12E184C7182D8275D8 /* Frameworks */,
+				3473D6D10DB628DD7506891DA6ABDACE /* Pods */,
+				A5B64F9682FF1F1D1E6C4B9A8EC20702 /* Products */,
+				09E1EFCDAD748F6BCD927A5846886471 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A7DFB43ABACEF12E184C7182D8275D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7128F6C5D5D078AD5603750E2EE9475C /* WMPageController.framework */,
+				55D32573598E255E0C8EB098B04A64D8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9560E6CF28831719DAE382D1CB4BB1D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F05CAEF3E0926BF763E2B4663F19F379 /* Info.plist */,
+				FA5AAB141DBBC0319A03494F6CCEE051 /* WMStickyPageController.modulemap */,
+				2211CD545337A2DE7F00631FC0B69E32 /* WMStickyPageController.xcconfig */,
+				5BD3011896943C116962DFFACDD26DA5 /* WMStickyPageController-dummy.m */,
+				0BC35A0E885924E405E19739941912D2 /* WMStickyPageController-prefix.pch */,
+				8B873D258C394E785E8E7C9DC652908B /* WMStickyPageController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WMStickyPageController";
+			sourceTree = "<group>";
+		};
+		A5B64F9682FF1F1D1E6C4B9A8EC20702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F1CAF37A0C11FA6292EA74B144AE473 /* Pods_WMStickyPageController_Example.framework */,
+				1D5590C27CA63FF85F9EBF33F29803DE /* Pods_WMStickyPageController_Tests.framework */,
+				D170B738E94521021E0B8F2FF3468126 /* WMPageController.framework */,
+				5267C0ECF9678E6077D69B55CD92CF66 /* WMStickyPageController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8AF5AFB705907839382DC861456DDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE0A159959B9F6644352C97ED603A9 /* Info.plist */,
+				E8B47F5C0FB344615CF98D76BCF95F89 /* WMPageController.modulemap */,
+				46B63EB6A8D9C60BC237415CB4B6B2BC /* WMPageController.xcconfig */,
+				A21D872E091C08BABCD77F72486162AD /* WMPageController-dummy.m */,
+				1469B9DC7000834A19B9A8505E032F57 /* WMPageController-prefix.pch */,
+				101A2BBB562572D2C3EAFF8D0EB673F9 /* WMPageController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WMPageController";
+			sourceTree = "<group>";
+		};
+		D66D7960A8AEA23240D8BD5EF2E904CE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2E6E0C73CDBB452EC491CC2F0E0FE822 /* LICENSE */,
+				651EC43E1A765348CC70846674FD7943 /* README.md */,
+				706BDDB9806DB6094CFF706463FCFBDA /* WMStickyPageController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		251A7585BC5129EE86E61ADC55103511 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4ABAB710350C6EEB7F9C625069C9FAB /* Pods-WMStickyPageController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4540B8443F0E1E55520C13B5C35DE5F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDCC15D873EE004C85F0537BDD3FBE7 /* Pods-WMStickyPageController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64AA01D56B99EFB8DE8A1E204BA0499C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA595B9F7A7A1D5A937499B6DC1EB3B1 /* WMMagicScrollView.h in Headers */,
+				22CC9A4266742BAC5D03C33349717776 /* WMStickyPageController-umbrella.h in Headers */,
+				52FA9A24D34321066E6F105A631A4476 /* WMStickyPageController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25914168599B8A7C6A3823A5BD85E31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34ECDD858149FD9BA158B8C79EFB9C2 /* UIViewController+WMPageController.h in Headers */,
+				6BF5A429735EE7D2985B62D13B700B3C /* WMMenuItem.h in Headers */,
+				6E83ECCA473D6B4A6D6E9E9B5B0E7DD5 /* WMMenuView.h in Headers */,
+				3A6552B69EE19E99C45361176E950D2E /* WMPageController-umbrella.h in Headers */,
+				545B758E2C1791C0E8D5FE6C6B475E7B /* WMPageController.h in Headers */,
+				A3FDDEB0D864E3FA0655CB7FAFDB03A8 /* WMProgressView.h in Headers */,
+				5F8B30EBECDE7DEAEF10922492CB0443 /* WMScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F4EE53E30929F96BE8BAB5FC733CA44 /* Pods-WMStickyPageController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33DC9421B59DA4178DA4CB104C3EA39 /* Build configuration list for PBXNativeTarget "Pods-WMStickyPageController_Example" */;
+			buildPhases = (
+				7B7519286E219FA1164E72E021D088BD /* Sources */,
+				B62D8676E634F633EF465FD37DDBCE47 /* Frameworks */,
+				4540B8443F0E1E55520C13B5C35DE5F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB303402C5CD2101EEF3CE1CD95462ED /* PBXTargetDependency */,
+				5B0BF659F9C229286290F393121FD235 /* PBXTargetDependency */,
+			);
+			name = "Pods-WMStickyPageController_Example";
+			productName = "Pods-WMStickyPageController_Example";
+			productReference = 7F1CAF37A0C11FA6292EA74B144AE473 /* Pods_WMStickyPageController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB5291D45954F5114C132DBC34D607F3 /* WMStickyPageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136F34C035E5071D4142A23DC201C035 /* Build configuration list for PBXNativeTarget "WMStickyPageController" */;
+			buildPhases = (
+				4BDB15AA48E38789D596369930A48670 /* Sources */,
+				C10206B34CAE2EF397BD8AE924502D11 /* Frameworks */,
+				64AA01D56B99EFB8DE8A1E204BA0499C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35D6C6E6AFC8C998A7BF10E0EF9424E4 /* PBXTargetDependency */,
+			);
+			name = WMStickyPageController;
+			productName = WMStickyPageController;
+			productReference = 5267C0ECF9678E6077D69B55CD92CF66 /* WMStickyPageController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6E9493E3659331F61398419A46F2021 /* WMPageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826B09263B7E0B1F12C68E85CDAD06E3 /* Build configuration list for PBXNativeTarget "WMPageController" */;
+			buildPhases = (
+				DE63A7C60A1C7ED0347794A36DAC0E37 /* Sources */,
+				F49EB5266625CF0C84DCE65DAC60AAD2 /* Frameworks */,
+				F25914168599B8A7C6A3823A5BD85E31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMPageController;
+			productName = WMPageController;
+			productReference = D170B738E94521021E0B8F2FF3468126 /* WMPageController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D90C6C56C9CFAEB7EF316BF44F624BA1 /* Pods-WMStickyPageController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0312ADD2C36409EE24834B74FCC116 /* Build configuration list for PBXNativeTarget "Pods-WMStickyPageController_Tests" */;
+			buildPhases = (
+				39BEBD3056543EE73B841404F27E0514 /* Sources */,
+				8D433952E395C7BD0C9D41E2452EF9E9 /* Frameworks */,
+				251A7585BC5129EE86E61ADC55103511 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141E417A60175688E3F9844C5060D77D /* PBXTargetDependency */,
+			);
+			name = "Pods-WMStickyPageController_Tests";
+			productName = "Pods-WMStickyPageController_Tests";
+			productReference = 1D5590C27CA63FF85F9EBF33F29803DE /* Pods_WMStickyPageController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A5B64F9682FF1F1D1E6C4B9A8EC20702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F4EE53E30929F96BE8BAB5FC733CA44 /* Pods-WMStickyPageController_Example */,
+				D90C6C56C9CFAEB7EF316BF44F624BA1 /* Pods-WMStickyPageController_Tests */,
+				C6E9493E3659331F61398419A46F2021 /* WMPageController */,
+				AB5291D45954F5114C132DBC34D607F3 /* WMStickyPageController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39BEBD3056543EE73B841404F27E0514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DD3B9667C7D9AD8C21BCC2B56E4209 /* Pods-WMStickyPageController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDB15AA48E38789D596369930A48670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C850AB57E3D1A7B1ACC7F4E0B429A5 /* WMMagicScrollView.m in Sources */,
+				59BE90A27B7EB3461CEFDEB6DC902001 /* WMStickyPageController-dummy.m in Sources */,
+				619038E18BEF99BDA419CB12AB1B4FAE /* WMStickyPageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7519286E219FA1164E72E021D088BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA7214027BFAC6D4E4D242E5FD881AA /* Pods-WMStickyPageController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE63A7C60A1C7ED0347794A36DAC0E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EBA5C5280EBDB789F7F5FA15D8CB85 /* UIViewController+WMPageController.m in Sources */,
+				4F942AC58CF3684772E252AF785BAF95 /* WMMenuItem.m in Sources */,
+				88A6AA60D8FA2E134B6B9914ACF9EB84 /* WMMenuView.m in Sources */,
+				D289AF37F92768CD29F28876E4B2EAFA /* WMPageController-dummy.m in Sources */,
+				FDD4E838C26B5C9DD9EF29156F72E868 /* WMPageController.m in Sources */,
+				8712017E736C0520414C8C693E925B81 /* WMProgressView.m in Sources */,
+				CA0FF1D714DD80D91983882D53604403 /* WMScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		141E417A60175688E3F9844C5060D77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WMStickyPageController_Example";
+			target = 9F4EE53E30929F96BE8BAB5FC733CA44 /* Pods-WMStickyPageController_Example */;
+			targetProxy = F628F6A8A8C57E1024BB5534AB446BFD /* PBXContainerItemProxy */;
+		};
+		35D6C6E6AFC8C998A7BF10E0EF9424E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMPageController;
+			target = C6E9493E3659331F61398419A46F2021 /* WMPageController */;
+			targetProxy = 858C4A802AC29DD44550B9512C945615 /* PBXContainerItemProxy */;
+		};
+		5B0BF659F9C229286290F393121FD235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMStickyPageController;
+			target = AB5291D45954F5114C132DBC34D607F3 /* WMStickyPageController */;
+			targetProxy = 5B8DD5F3E2677C14F6CC6E93D659A2D5 /* PBXContainerItemProxy */;
+		};
+		BB303402C5CD2101EEF3CE1CD95462ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMPageController;
+			target = C6E9493E3659331F61398419A46F2021 /* WMPageController */;
+			targetProxy = 6F3C0B3CFF5468D1C70686CDAC3E35E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C377C1AE8A0E6CAEFD2E031B3422FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B63EB6A8D9C60BC237415CB4B6B2BC /* WMPageController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMPageController/WMPageController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMPageController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WMPageController/WMPageController.modulemap";
+				PRODUCT_MODULE_NAME = WMPageController;
+				PRODUCT_NAME = WMPageController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E3338957272739FB13F3625150EDE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5474D26206F3030A64FB553CB19C9BEC /* Pods-WMStickyPageController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WMStickyPageController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WMStickyPageController_Example/Pods-WMStickyPageController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BAE3A3896F43F3F6294FDC9A5ADE554C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93055F43A3A82CAA1706F8E65C7FB709 /* Pods-WMStickyPageController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WMStickyPageController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WMStickyPageController_Tests/Pods-WMStickyPageController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCC8A1EA63450CEE4D8F72BED3FA8434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2211CD545337A2DE7F00631FC0B69E32 /* WMStickyPageController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMStickyPageController/WMStickyPageController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMStickyPageController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WMStickyPageController/WMStickyPageController.modulemap";
+				PRODUCT_MODULE_NAME = WMStickyPageController;
+				PRODUCT_NAME = WMStickyPageController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3BB92F4CECCEA158DB6FB23D4C93491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C157FC57AC9CD249D528237D4165A1 /* Pods-WMStickyPageController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WMStickyPageController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WMStickyPageController_Example/Pods-WMStickyPageController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E15587C062DAD2CB0AC6FC1E17BBD444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3800377CDB3CE10B9C28465132CCDA14 /* Pods-WMStickyPageController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WMStickyPageController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WMStickyPageController_Tests/Pods-WMStickyPageController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA3FFD8261FD4AAAB87AF4C1D537644D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2211CD545337A2DE7F00631FC0B69E32 /* WMStickyPageController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMStickyPageController/WMStickyPageController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMStickyPageController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WMStickyPageController/WMStickyPageController.modulemap";
+				PRODUCT_MODULE_NAME = WMStickyPageController;
+				PRODUCT_NAME = WMStickyPageController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF116E12AA2B483A253681E29BA7EE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B63EB6A8D9C60BC237415CB4B6B2BC /* WMPageController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMPageController/WMPageController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMPageController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WMPageController/WMPageController.modulemap";
+				PRODUCT_MODULE_NAME = WMPageController;
+				PRODUCT_NAME = WMPageController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136F34C035E5071D4142A23DC201C035 /* Build configuration list for PBXNativeTarget "WMStickyPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3FFD8261FD4AAAB87AF4C1D537644D /* Debug */,
+				CCC8A1EA63450CEE4D8F72BED3FA8434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826B09263B7E0B1F12C68E85CDAD06E3 /* Build configuration list for PBXNativeTarget "WMPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF116E12AA2B483A253681E29BA7EE04 /* Debug */,
+				1C377C1AE8A0E6CAEFD2E031B3422FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0312ADD2C36409EE24834B74FCC116 /* Build configuration list for PBXNativeTarget "Pods-WMStickyPageController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE3A3896F43F3F6294FDC9A5ADE554C /* Debug */,
+				E15587C062DAD2CB0AC6FC1E17BBD444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33DC9421B59DA4178DA4CB104C3EA39 /* Build configuration list for PBXNativeTarget "Pods-WMStickyPageController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BB92F4CECCEA158DB6FB23D4C93491 /* Debug */,
+				3E3338957272739FB13F3625150EDE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

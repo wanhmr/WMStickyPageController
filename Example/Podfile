@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'WMStickyPageController_Example' do
+  pod 'WMStickyPageController', :path => '../'
+
+  target 'WMStickyPageController_Tests' do
+    inherit! :search_paths
+
+  end
+end

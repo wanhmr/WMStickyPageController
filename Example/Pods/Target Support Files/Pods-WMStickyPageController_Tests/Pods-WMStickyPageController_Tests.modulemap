@@ -1,0 +1,6 @@
+framework module Pods_WMStickyPageController_Tests {
+  umbrella header "Pods-WMStickyPageController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

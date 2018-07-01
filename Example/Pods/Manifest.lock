@@ -1,0 +1,23 @@
+PODS:
+  - WMPageController (2.5.2)
+  - WMStickyPageController (0.1.0):
+    - WMPageController
+
+DEPENDENCIES:
+  - WMStickyPageController (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - WMPageController
+
+EXTERNAL SOURCES:
+  WMStickyPageController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  WMStickyPageController: 248bef7707faf4f0d955450b9f478255d143d8e5
+
+PODFILE CHECKSUM: 36b2cfff77760021a69b3de409f90a3bf8034b4e
+
+COCOAPODS: 1.5.0
