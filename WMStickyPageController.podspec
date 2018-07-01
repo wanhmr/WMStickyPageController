@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WMStickyPageController'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'WMStickyPageController is WMPageController extension.'
 
 # This description is used to generate tags and improve search results.
