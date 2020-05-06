@@ -22,7 +22,7 @@ pod 'WMStickyPageController'
 
 ## Author
 
-wanhmr@163.com, tpphha@gmail.com
+Tpphha, tpphha@gmail.com
 
 ## License
 
