@@ -270,6 +270,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "wanhmr@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3BWW8PC8XZ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 12849BEC7070274C50338A3A /* Pods-WMStickyPageController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BWW8PC8XZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WMStickyPageController/WMStickyPageController-Prefix.pch";
 				INFOPLIST_FILE = "WMStickyPageController/WMStickyPageController-Info.plist";
@@ -528,6 +532,7 @@
 			baseConfigurationReference = A4EABA614DE89354E0EE2C08 /* Pods-WMStickyPageController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BWW8PC8XZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WMStickyPageController/WMStickyPageController-Prefix.pch";
 				INFOPLIST_FILE = "WMStickyPageController/WMStickyPageController-Info.plist";
